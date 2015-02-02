@@ -1,0 +1,2 @@
+# Parallel-text-finder
+The decision consists of 2 parts – preprocessing and replies to the requests. When preprocessing it is necessary to compare to each text some vector of numbers. The method of doing it is counting the frequencies of words (or N-gram), entering the text, and SVD application to the received set of numbers. The project also includes the realization of Kd-Tree (it is used while working with the requests).
